@@ -215,7 +215,9 @@ src/main
 ※ mybatis를 사용하는 경우에만 해당
 * 파일명명
     1. 업무 + _mapper.xml
-        ```ex) user_mapper.xml person_mapper.xml ...```
+        ```
+        ex) user_mapper.xml person_mapper.xml ...
+        ```
 * sql 문(statement)
     1. 콤마를 문장의 맨앞에 사용
         ```
@@ -232,15 +234,25 @@ src/main
 * sql id
     1. 낙타(Camel)법 사용
     2. 입력    insert + 업무
-    ```ex) <insert id="insertUser" ...></insert>```
+        ```
+        ex) <insert id="insertUser" ...></insert>
+        ```
     3. 수정    update + 업무
-    ```ex) <update id="updateUser" ...></update>```
+        ```
+        ex) <update id="updateUser" ...></update>
+        ```
     4. 삭제    delete + 업무
-    ```ex) <delete id="deleteUser" ...></delete>```
+        ```
+        ex) <delete id="deleteUser" ...></delete>
+        ```
     5. 조회    select + 업무
-    ```ex) <select id="selectUser" ...></select>```
+        ```
+        ex) <select id="selectUser" ...></select>
+        ```
     6. 목록    select + 업무 + List  
-    ```ex) <select id="selectUserList" ...></select>```
+        ```
+        ex) <select id="selectUserList" ...></select>
+        ```
 
 ## 3. FRONT END 개발 방법
 #### javascript
@@ -255,8 +267,12 @@ src/main
     3. TODO callback vs promise
     4. TODO ES6+
     5. 공통 js파일 사용
-        ```공통 pp-0.9-es6.js or pp-0.9-legacy.js```
-        ```ui관련 공통 pp-0.9-es6.js or ppui-0.9-legacy.js```
+        ```
+        공통 pp-0.9-es6.js or pp-0.9-legacy.js
+        ```
+        ```
+        ui관련 공통 pp-0.9-es6.js or ppui-0.9-legacy.js
+        ```
 * 변수 선언
     1. var 사용 지양
         ```
@@ -267,11 +283,15 @@ src/main
     2. 전역 변수 지양
 * 파일 명명
     1. 업무 + .js
-        ```ex) user.js person.js ...```
+        ```
+        ex) user.js person.js ...
+        ```
 * 함수 명명
     1. 함수명만으로도 동작을 유추할 수 있도록 의미있는 명칭 사용
     2. 동사 + 기능
-        ```ex) addUser(), viewUser(), renderHtml(), getData() ...```
+        ```
+        ex) addUser(), viewUser(), renderHtml(), getData() ...
+        ```
 * 변수 명명
     1. 의미있는 변수명 사용
         ```
@@ -280,7 +300,9 @@ src/main
         (나쁨) a, b, ...
         ```
     2. 단, 반복문의 변수는 i, j, k,...사용 가능
-        ```ex) for(let i=0; i<10; i++) { ... } ```
+        ```
+        ex) for(let i=0; i<10; i++) { ... } 
+        ```
 * 주석
     1. 가능하면 주석이 없어도 로직이 이해되는 코드 작성
     2. 주석이 필요한 경우 함수, 파라미터, 리턴값의 주석 작성
@@ -309,14 +331,18 @@ src/main
     2. CSR(Client Side Rendering) vs SSR(Server Side Rendering)
 * 파일명명
     1. 업무 + .html
-        ```ex)user.html```
+        ```
+        ex)user.html
+        ```
 * 템플릿 엔진
     1. thymeleaf 사용
 
 #### css
 * 클래스 명명
     1. 구분자로 하이픈(-) 사용
-        ```ex) <button type="button" class="add-user-button">추가</button>```
+        ```
+        ex) <button type="button" class="add-user-button">추가</button>
+        ```
 
 ## 4. 기타
 ### 유용한 Visual Studio Code Extension
