@@ -116,7 +116,9 @@ src/main
     (참조) https://github.com/HyunSeongKil/performance-platform/tree/master/pp-core
 * 패키지 
     1. 패키지명은 소문자만 사용
-    ```ex) kr.vaiv.lhdt```    
+    ```
+    ex) kr.vaiv.lhdt
+    ```    
 * 파일명명
     1. 업무명 + RestController.java (rest api 서비스의 경우)
     ```ex) UserRestController.java```
