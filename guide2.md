@@ -267,12 +267,9 @@ src/main
     3. TODO callback vs promise
     4. TODO ES6+
     5. 공통 js파일 사용
-        ```
-        공통 pp-0.9-es6.js or pp-0.9-legacy.js
-        ```
-        ```
-        ui관련 공통 pp-0.9-es6.js or ppui-0.9-legacy.js
-        ```
+        1. 공통 [pp-0.9-es6.js](https://github.com/HyunSeongKil/performance-platform/blob/master/pp-js/src/js/pp-0.9-es6.js) or [pp-0.9-legacy.js](https://github.com/HyunSeongKil/performance-platform/blob/master/pp-js/dist/js/pp-0.9-legacy.js)
+        2. ui관련 공통 [ppui-0.9-es6.js](https://github.com/HyunSeongKil/performance-platform/blob/master/pp-js/src/js/ppui-0.9-es6.js) or [ppui-0.9-legacy.js](https://github.com/HyunSeongKil/performance-platform/blob/master/pp-js/dist/js/pp-0.9-legacy.js)
+        
 * 변수 선언
     1. var 사용 지양
         ```
