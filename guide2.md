@@ -26,53 +26,53 @@
 #### 사용 기술
 ###### 공통
 * 통합개발환경(IDE) 택1
-    Eclipse 2020-09+    (https://www.eclipse.org)
-    IntelliJ    (https://www.jetbrains.com/idea/)
-    Visual Studio Code 1.54+    (https://code.visualstudio.com/)
+    1. [Eclipse 2020-09+](https://www.eclipse.org)
+    2. [IntelliJ IDEA](https://www.jetbrains.com/idea/)
+    3. [Visual Studio Code 1.54+](https://code.visualstudio.com/)
 * 형상(소스)관리
-    Git, GitHub (https://github.com/)
-    sourceTree  (https://www.sourcetreeapp.com/)
+    1. Git, [GitHub](https://github.com/)
+    2. [sourceTree](https://www.sourcetreeapp.com/)
 * 빌드
-    Gradle 6.5  (https://gradle.org/)
+    1. [Gradle 6.5](https://gradle.org/)
 * 데이터베이스
-    PostgreSQL 12.5 (https://www.postgresql.org/)
+    1. [PostgreSQL 12.5](https://www.postgresql.org/)
 * ER(Entity Relationship) 모델링 택1
-    ERWin   (https://erwin.com/products/erwin-data-modeler)
-    DA# (https://www.en-core.com/solution/solution2)
+    1. [ERWin](https://erwin.com/products/erwin-data-modeler)
+    2. [DA#](https://www.en-core.com/solution/solution2)
 * 기타
-    Docker 20.10    (https://www.docker.com/)
-    geoserver 2.16  (http://geoserver.org)
-    RabbitMQ    (https://www.rabbitmq.com/)
-    QGIS 3.16   (https://www.qgis.org)
+    1. [Docker 20.10](https://www.docker.com/)
+    2. [geoserver 2.16](http://geoserver.org)
+    3. [RabbitMQ](https://www.rabbitmq.com/)
+    4. [QGIS 3.16](https://www.qgis.org)
 
 ###### BACK END
 * 언어
-    java 11+    (http://openjdk.java.net/)
+    1. [java 11+](http://openjdk.java.net/)
 * 프레임워크
-    string boot 2.0+    (https://spring.io/projects/spring-boot)
+    1. [string boot 2.0+](https://spring.io/projects/spring-boot)
 * SQL mapper
-    mybatis (https://blog.mybatis.org/)
+    1. [mybatis](https://blog.mybatis.org/)
 * ORM(Object Relational Mapping)
-    JPA (https://spring.io/projects/spring-data-jpa)
+    1. [JPA](https://spring.io/projects/spring-data-jpa)
 * 기타
-    Lombok  (https://projectlombok.org/)
+    1. [Lombok](https://projectlombok.org/)
 
 ###### FRONT END
 * html
 * css
 * javascript
-    vanilla javascript  (http://vanilla-js.com/)
-    jquery  (https://jquery.com/)
-    Handlebar   (https://handlebarsjs.com/)
-    ajax
-    json
+    1. [vanilla javascript](http://vanilla-js.com/)
+    2. [jquery](https://jquery.com/)
+    3. [Handlebar](https://handlebarsjs.com/)
+    4. ajax
+    5. json
 * 맵(map) 엔진
-    CesiumJS    (https://cesium.com/)
-    Mago3D  (https://github.com/Gaia3D/mago3djs)
+    1. [CesiumJS](https://cesium.com/)
+    2. [Mago3D](https://github.com/Gaia3D/mago3djs)
 * 템플릿 엔진
-    thymeleaf   (https://www.thymeleaf.org/)
+    1. [thymeleaf](https://www.thymeleaf.org/)
 * 기타
-    bootstrap   (https://getbootstrap.com/)
+    1. [bootstrap](https://getbootstrap.com/)
 
 
 ## 2. BACK END 개발 방법
