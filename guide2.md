@@ -116,33 +116,55 @@ src/main
     (참조) https://github.com/HyunSeongKil/performance-platform/tree/master/pp-core
 * 패키지 
     1. 패키지명은 소문자만 사용
-    ```
-    ex) kr.vaiv.lhdt
-    ```    
+        ```
+        ex) kr.vaiv.lhdt
+        ```    
 * 파일명명
     1. 업무명 + RestController.java (rest api 서비스의 경우)
-    ```ex) UserRestController.java```
+        ```
+        ex) UserRestController.java
+        ```
     2. 업무명 + Controller.java (view 서비스의 경우)
-    ```ex) UserController.java```
+        ```
+        ex) UserController.java
+        ```
     3. 업무명 + Service.java
-    ```ex) UserService.java```
+        ```
+        ex) UserService.java
+        ```
     4. 업무명 + ServiceImpl.java
-    ```ex) UserServiceImpl.java```
+        ```
+        ex) UserServiceImpl.java
+        ```
     5. 업무명 + Repository.java (JPA의 경우)
-    ```ex) UserRepository.java```
+        ```
+        ex) UserRepository.java
+        ```
     6. 업무명 + Mapper.java (mybatis의 경우)
-    ```ex) UserMapper.java```
+        ```
+        ex) UserMapper.java
+        ```
 * 메소드
     1. 등록 add + 구분명
-    ```ex) addUser()```
+        ```
+        ex) addUser()
+        ```
     2. 수정 update + 구분명
-    ```ex) updateUser()```
+        ```
+        ex) updateUser()
+        ```
     3. 삭제 delete + 구분명
-    ```ex) deleteUser()```
+        ```
+        ex) deleteUser()
+        ```
     4. 조회 get + 구분명
-    ```ex) getUser()```
+        ```
+        ex) getUser()
+        ```
     5. 목록 list + 구분명
-    ```ex) listUser()```
+        ```
+        ex) listUser()
+        ```
 * 메소드 상세
     1. RestController
         리턴 타입   ResponseEntity<Map>
@@ -164,9 +186,13 @@ src/main
         ```
     3. 메소드의 파라미터 갯수
         3개 이하 추천
-        ```ex) addUser(userId, userName, tel)```
+        ```
+        ex) addUser(userId, userName, tel)
+        ```
         3개 초과하는 경우 Model 객체에 담아서 전달
-        ```ex) addUser(UserModel)```
+        ```
+        ex) addUser(UserModel)
+        ```
 * 주석
     1. 가능하면 주석이 없어도 로직을 이해할 수 있도록 구현
     2. 주석이 필요한 경우 java 코딩 규칙에 맞게 작성
@@ -178,7 +204,9 @@ src/main
         (나쁨) String a;
         ```
     2. 단, 반복문에는 i,j,k,...사용 가능
-        ```for(int i=0; i<10; i++){ ... }```
+        ```ex)
+        for(int i=0; i<10; i++){ ... }
+        ```
 * 기타
     1. Lombok 이용
     2. Model 클래스는 Lombok을 이용하여 @Getter, @Setter, @Builder등 사용
