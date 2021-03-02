@@ -4,33 +4,24 @@
 
 ## 1. 공통
 #### 개발 원칙 및 철학
-* SOLID(SRP, OCP, LSP, ISP, DIP)
-    https://ko.wikipedia.org/wiki/SOLID_(%EA%B0%9D%EC%B2%B4_%EC%A7%80%ED%96%A5_%EC%84%A4%EA%B3%84)
-* DRY(Don't repeat yourself)
-    https://ko.wikipedia.org/wiki/%EC%A4%91%EB%B3%B5%EB%B0%B0%EC%A0%9C
-* KISS(Keep it small and simple)
-    https://ko.wikipedia.org/wiki/KISS_%EC%9B%90%EC%B9%99
-* SoC(Separation of Concerns)    
-    https://ko.wikipedia.org/wiki/%EA%B4%80%EC%8B%AC%EC%82%AC_%EB%B6%84%EB%A6%AC
-* POLA(Principle Of Least Astonishment)
-    https://ko.wikipedia.org/wiki/%EB%86%80%EB%9E%8C_%EC%B5%9C%EC%86%8C%ED%99%94_%EC%9B%90%EC%B9%99
-* 방어적 프로그래밍
-    https://ko.wikipedia.org/wiki/%EB%B0%A9%EC%96%B4%EC%A0%81_%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D
-* YAGNI(You Aren't Gonna Need It)
-    https://ko.wikipedia.org/wiki/YAGNI
-* java 코딩 규칙
-    https://myeonguni.tistory.com/1596
-* javascript 코딩 규칙
-    https://www.crockford.com/code.html
+* [SOLID(SRP, OCP, LSP, ISP, DIP)](https://ko.wikipedia.org/wiki/SOLID_(%EA%B0%9D%EC%B2%B4_%EC%A7%80%ED%96%A5_%EC%84%A4%EA%B3%84))
+* [DRY(Don't repeat yourself)](https://ko.wikipedia.org/wiki/%EC%A4%91%EB%B3%B5%EB%B0%B0%EC%A0%9C)
+* [KISS(Keep it small and simple)](https://ko.wikipedia.org/wiki/KISS_%EC%9B%90%EC%B9%99)
+* [SoC(Separation of Concerns)](https://ko.wikipedia.org/wiki/%EA%B4%80%EC%8B%AC%EC%82%AC_%EB%B6%84%EB%A6%AC)
+* [POLA(Principle Of Least Astonishment)](https://ko.wikipedia.org/wiki/%EB%86%80%EB%9E%8C_%EC%B5%9C%EC%86%8C%ED%99%94_%EC%9B%90%EC%B9%99)
+* [YAGNI(You Aren't Gonna Need It)](https://ko.wikipedia.org/wiki/YAGNI)
+* [방어적 프로그래밍](https://ko.wikipedia.org/wiki/%EB%B0%A9%EC%96%B4%EC%A0%81_%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D)
+* [java 코딩 규칙](https://myeonguni.tistory.com/1596)
+* [javascript 코딩 규칙](https://www.crockford.com/code.html)
 
 #### 공통 환경
 * 들여쓰기(indent)
-    공백(space) 사용
-    탭(tab) 사용하지 않음
+    1. 공백(space) 사용
+    2. 탭(tab) 사용하지 않음
 * 공백
-    4칸
+    1. 4칸
 * 인코딩
-    UTF-8
+    1. UTF-8
 
 #### 사용 기술
 ###### 공통
@@ -231,8 +222,8 @@ src/main
         user.js
         ```
     2. OOP(Object Oriented Programming) 지향
-    3. 논의 필요 callback vs promise
-    4. 논의 필요 ES6+
+    3. TODO callback vs promise
+    4. TODO ES6+
     5. 공통 js파일 사용
         ```공통 pp-0.9-es6.js or pp-0.9-legacy.js```
         ```ui관련 공통 pp-0.9-es6.js or ppui-0.9-legacy.js```
