@@ -112,6 +112,8 @@ src/main
 ```
 #### java
 * 공통
+    * spring boot를 이용하여 구현
+    * java config 이용 지향(환경 설정을 위한 xml 사용 지양)
     * 공통 라이브리러 사용
     (참조) https://github.com/HyunSeongKil/performance-platform/tree/master/pp-core
 * 패키지 
