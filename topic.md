@@ -23,6 +23,7 @@
 * Terrain
     * tract of country considered with regarded to its natural features, etc
     * an extent of ground, region, territory
+* ![DEM,DTM,DSM](https://mblogthumb-phinf.pstatic.net/20150914_184/rsmilee_1442204373263asXhu_JPEG/smilee_DEM%252C_DSM%252C_DTM%252C_%25EC%2588%2598%25EC%25B9%2598%25ED%2591%259C%25EA%25B3%25A0%25EB%25AA%25A8%25EB%258D%25B8%252C%25EC%25B0%25A8%25EC%259D%25B4%252C%25EC%2584%25A4%25EB%25AA%2585.jpg?type=w800)
 
 ### DTM(Digital Terrian Model)
 
@@ -56,12 +57,13 @@
 
 ### radian
 * 각도를 나타내는 단위
+* 1라디안은 원주 호의 길이가 반지름과 같은 길이가 될 때의 각도
 * 수학에서 사용하기에 편리한 단위
 * 삼각함수에서 사용하기 편함
-* 1라디안은 원주 호의 길이가 반지름과 같은 길이가 될 때의 각도
 * 1라디안 = 57.2958...도
 * 1파이(3.141592...) 라디안 = 180도
 * 2파이(3.141592...) 라디안 = 360도
+* ![radian](https://t1.daumcdn.net/cfile/tistory/23455B33510626C325)
 
 ## IT
 ### API Gateway
