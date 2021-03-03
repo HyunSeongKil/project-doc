@@ -8,3 +8,7 @@
 
 ## essay.md
 * 에세이
+
+## initiative.md
+* 선수 과목
+* 학습 단계 및 방법
