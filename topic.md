@@ -65,6 +65,30 @@
 * 2파이(3.141592...) 라디안 = 360도
 * ![radian](https://t1.daumcdn.net/cfile/tistory/23455B33510626C325)
 
+### 본초 자오선(prime meridian)
+* 영국 그리니치의 그리니치 천문대를 지나는 자오선으로, 경도의 기준이 됨
+* 자오선이란 12간지중 자(밤12시)와 오(낮12시)에 해당
+* 결과적으로, 본초자오선이란 '밤12시와 낮12시가 근본적으로 시작되는 선'이란 의미
+* 그리니치 천문대는 낮12시(오선)을 구분짓는 경계
+* [위키피디아](https://ko.wikipedia.org/wiki/%EB%B3%B8%EC%B4%88_%EC%9E%90%EC%98%A4%EC%84%A0)
+* ![본초자오선](https://t1.daumcdn.net/cfile/blog/997BAC375BAF754B32?original)
+
+### 경도(경선, 날줄, longitude)
+* 지구상에서 본초 자오선을 기준으로 동쪽 또는 서쪽으로 얼마나 떨어져 있는지 나타내는 위치
+* 단위 : 도(º)
+* 범위 : 180ºE(동경 180도) ~ 180ºW(서경 180도)
+* 한반도는 동경124 ~ 동경132
+* [위키피디아](https://ko.wikipedia.org/wiki/%EA%B2%BD%EB%8F%84)
+* ![경도](https://lh3.googleusercontent.com/proxy/iHaZLOHPe8ybyJRVznOXTTVS4_SffYd3gg-BgTQHa7MBmYNtOsEthQklaabQ3QwfU8vcQNNW2intjdX4lB48KoToSsVtH0-z5ZjVmdtVEVL7kp9HIswthjd1x_SRABKj7nVLM4smhTIC8AdErlzskuP5LPGhaNUPmrY-nx1bXcCZ5x2ZLhE_L7hVmFuEfb_TQCYCEVGLcMaCygVEp6CmLNqXamsayMdVX2zKF1rtC7OWGpDLhhI0Z8MyKAdpmpWJtQYk8SH9IZ-kWYQipuGG_alnym_GqnjYKa3R69UTE05_djq8vdxM9BV60wfrZtR_J82CoV6Kfliw7unOZ6KIp6RV)
+
+### 위도(위선, 씨줄, latitude)
+* 지구상에서 적도를 기준으로 북쪽 또는 남쪽으로 얼마나 떨어져 있는지 나타내는 위치
+* 단위 : 도(º)
+* 범위 : 적도(0º) ~ 북극점(90ºN), 적도(0º) ~ 남극점(90ºS)
+* 한반도 : 32º ~ 43º
+* [위키피디아](https://ko.wikipedia.org/wiki/%EC%9C%84%EB%8F%84)
+* ![위도](https://t1.daumcdn.net/cfile/tistory/2756813C5865C7D116)
+
 ## IT
 ### API Gateway
 * MSA에서 언급되는 컴포넌트중 하나이며, 모든 client 요청에 대한 end point를 통합하는 서버
