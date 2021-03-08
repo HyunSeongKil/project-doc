@@ -2,6 +2,77 @@
 
 ## 공간정보
 
+### 지구의 형상
+* ![그림](https://mblogthumb-phinf.pstatic.net/20150727_245/kcscpr_1437962883446JUsza_PNG/1_%281%29.png?type=w2)
+
+
+### 지오이드(Geoid)
+* 측지학에서 정립한 각종 작업의 기준이 되는 새로운 지구의 수학적 모델
+* 평균해수면을 육지까지 연장하여 지구 전체를 둘러쌌다고 가정한 곡면
+* 지구를 물로 덮었다고 가정했을 때의 지구의 형태를 나타내고 있는 측지학, 지구물리학의 용어
+* 항상 중력 중심에 수직(등포텔션면)
+* 높이는 항상 0m (해발고도는 평균해수면을 기준으로 하기 때문)
+* 물리적 지표면보다 단순하고, 준거타원체보다 더 실제 지구에 가까움
+* 지오이드고
+    * 지오이드와 지구타원쳬 사이의 높이 차
+* ![그림](http://www.biz-gis.com/files/attach/images/5130/754/065/ac14475f22500f4e1d843edb62d1e881.jpg)
+
+
+### 지구 타원체(Earth Ellipsoid)
+* 지구를 근사하는 수학적 모델
+* 측지학과 천문학, 지구과학에 쓰이는 기준틀
+
+
+### 준거 타원체(Reference Ellipsoid)
+* 지구의 일정 지역의 측지측량의 기준이 되는 타원체
+* 측량기술, 측지 대상지역의 범위, 정치, 군사적인 문제등에 따라 달리 정의될 수 있음
+* 특정지역 또는 국가마다 채택한 준거타원체가 다르기 때문에 국제 표준 타원체와 다를 수 있음
+* 우리나라는 베셀(Bessel) 타원체를 사용
+* ![그림](https://t1.daumcdn.net/cfile/tistory/230ECB4A5689DDBA29)
+* ![준거타원체 종류](https://t1.daumcdn.net/cfile/tistory/22398A4A5689DDBD07)
+
+
+### 좌표계(Coordinate Reference System, CRS)
+* 둥근 지구를 2차원 평면에 투영(projection)하는 다양한 방법
+* 지리 좌표계(Geographic Coordinate System, GCS)
+    * 지구상에 위치를 정의하는데 3차원의 구면을 이용하는 좌표계
+    * 지리 좌표계에서 한 지점은 경도(longitude)와 위도(latitude)값으로 지정됨
+* 투영 좌표계(Projected Coordinate System, PCS)
+    * 지리좌표를 평면상에 투영한 좌표계
+
+
+
+### WGS84(World Geodetic System 1984)
+* 미국이 군사 및 GPS 운용을 목적으로 구축한 지구 타원체
+* GPS의 기준이 됨
+* 국제표준타원체
+
+### GRS80(Geodetic Reference System 1980)
+* 국제측지학협회(IAG)와 국제측지학 및 지구물리학연합(IUGG)에서 채택한 지구 타원체
+* 국제표준타원체
+
+
+
+
+
+### EPSG(European Petroleum Survey Group, 유럽석유조사그룹)
+* EPSG 코드에 대한 상세 정의는 prj4와 wkt라는 문자열로 정의
+* EPSG:4326 - WGS84 타원체의 경위도 좌표계
+* EPSG:3857 - GOOGLE, VWORLD의 좌표계
+* EPSG:5174 - 경도 10.405초 보정된 Bessel 타원체의 TM 중부원점
+* EPSG:5179 - GRS80 타원체의 UTM-K 좌표계
+
+
+### TM(Transverse Meractor, 횡단원통등각투영법) 좌표계
+* 평면 직각 좌표계의 하나
+* 측량 범위가 넓지 않은 지역의 측량을 위해 주로 사용
+
+### UTM(Universal Transverse Meractor, 국제 횡축 메르카토르) 좌표계
+* 지구를 경도 6º간격으로 세로 띄로 나누어 횡측 메르카토르 도법으로 그린 뒤, 위도8º 간격으로 총 60x20개의 격자로 나누어 각 세로 구역마다 설정된 원점에 대한 종.횡 좌표로 위치를 표시
+* ![사진](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Ft1.daumcdn.net%2Fcfile%2Fblog%2F1374DC445140DC9F1B)
+
+
+
 ### DEM(Digital Elevation Model)
 * 수치 표고 모델
 * 지형의 고도값을 수치로 저장함으로써 지형의 형상을 나타내는 지도
@@ -89,6 +160,9 @@
 * [위키피디아](https://ko.wikipedia.org/wiki/%EC%9C%84%EB%8F%84)
 * ![위도](https://t1.daumcdn.net/cfile/tistory/2756813C5865C7D116)
 
+
+
+
 ## IT
 ### API Gateway
 * MSA에서 언급되는 컴포넌트중 하나이며, 모든 client 요청에 대한 end point를 통합하는 서버
@@ -115,8 +189,10 @@
 * [위키피디아](https://ko.wikipedia.org/wiki/%EC%8B%B1%EA%B8%80_%ED%8E%98%EC%9D%B4%EC%A7%80_%EC%95%A0%ED%94%8C%EB%A6%AC%EC%BC%80%EC%9D%B4%EC%85%98)
 
 ### CSR(Client Side Rendering)
+* Angular vs React vs Vue
 
 ### SSR(Server Side Rendering)
+* 
 
 ### WebAssembly
 * 이진 명령어 포맷

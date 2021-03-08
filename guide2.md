@@ -14,6 +14,15 @@
 * [java 코딩 규칙](https://myeonguni.tistory.com/1596)
 * [javascript 코딩 규칙](https://www.crockford.com/code.html)
 
+
+#### 로직 구현 공통
+* 부정 조건문 지양
+* 전역 변수 지양
+* 메소드(함수)의 인자는 3개 이하가 적당함
+* 타입-검사 피하기
+    * 타입 검사하는것 자체가 어떤 타입의 변수가 사용되는지 모른다의 의미
+
+
 #### 공통 환경
 * 들여쓰기(indent)
     * 공백(space) 사용
