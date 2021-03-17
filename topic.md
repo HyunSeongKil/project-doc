@@ -207,6 +207,7 @@
 * 이진 명령어 포맷
 
 
+<<<<<<< HEAD
 ### 미디어 쿼리(Media Query)
 * 사이트에 접속하는 장치에 따라 특정한 CSS 스타일을 사용하도록 도와주는 소프트웨어 모듈
 * 반응형 웹 디자인의 핵심
@@ -232,3 +233,19 @@ CSS파일 사용 예시
     @import url(cssfile.css) screen and (min-width:200px) and (max-width:360px)
 </style>
 ```
+=======
+### Throughput(처리량)
+* 지정된 시간내에 처리된 정보량/처리량
+* 이상적인 값은 band-width이나 이런저런 이유로 실제 처리되는 값은 throughput임
+* ![그림](![image](https://user-images.githubusercontent.com/38479834/110746907-e4253300-8280-11eb-9234-ca47debdf174.png)
+
+
+### Latency(지연시간)
+* 각 처리의 시작~종료의 처리 시간
+* throughput과 latency는 반비례함
+* ![그림](![image](https://user-images.githubusercontent.com/38479834/110747406-ab398e00-8281-11eb-9f85-61a4722077b1.png)
+
+
+### band-width
+* 이상적인 처리량
+>>>>>>> 7302691ddc9dc73d2cc14ef9ce1be17a46ecc1cc
