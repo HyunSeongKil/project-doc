@@ -161,6 +161,15 @@
 * ![위도](https://t1.daumcdn.net/cfile/tistory/2756813C5865C7D116)
 
 
+### GNSS(Global Navigation Satellite System, (범지구) 위성 항법 시스템)
+* 인공위성을 이용해 위치를 결정할 수 있게 하는 체계
+* GPS : 미국의 글로벌 포지션 시스템
+* GLONASS : 러시아의 글로벌 궤도 항법 위성 시스템
+* BeiDou-2 : 중국이 개발한 시스템
+* Galileo : 유럽 연합(EU)에 의해 개발된 시스템
+* QZSS(Quasi-Zenith Satellite System) : 일본
+* NAVIC(Navigation Indian Constellation) : 인도
+* ![그림](https://www.oxts.com/wp-content/uploads/2017/11/DifferentGNSS.jpg)
 
 
 ## IT
@@ -196,3 +205,30 @@
 
 ### WebAssembly
 * 이진 명령어 포맷
+
+
+### 미디어 쿼리(Media Query)
+* 사이트에 접속하는 장치에 따라 특정한 CSS 스타일을 사용하도록 도와주는 소프트웨어 모듈
+* 반응형 웹 디자인의 핵심
+* 웹사이트를 콘텐츠를 화면 크기에 맞게 조정하는 역할을 수행함
+* @media 속성을 사용해 특정 미디어에서 어떤 CSS를 적용할 것인지 지정해줌
+```
+CSS파일 사용 예시
+    @media screen and (min-width:200px) and (max-width:360px) { /* 스타일 정의 */ }
+```
+```
+<link>사용 예시
+    <link href="cssfile.css" media="screen and (min-width:200px) and (max-width:360px)" rel="stylesheet">
+```
+```
+<style>사용 예시
+<style type="text/css" media="screen and (min-width:200px) and (max-width:360px)">
+    /* style */
+</style>
+```
+```
+<style>-@import 사용 예시
+<style>
+    @import url(cssfile.css) screen and (min-width:200px) and (max-width:360px)
+</style>
+```
