@@ -266,4 +266,4 @@ CSS파일 사용 예시
 * 하나의 두드러진 특성이 한 사람의 인상을 형성하는데 결정적인 역할을 하는 현상
 * 이는 우리의 의식이 외부에서 주어지는 모든 정보를 다 처리하기 어렵기 때문에 일어나는 현상
 * 지각적으로 특별한 몇몇 자극에만 집중하게 됨
-* ![링크](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwiN9ZuX37bvAhVdyIsBHQy4BdUQFjABegQIARAD&url=http%3A%2F%2Fm.blog.naver.com%2Fhscho%2F110177611833&usg=AOvVaw04OAD5cn1yY99noi5erRci)
+* [링크](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwiN9ZuX37bvAhVdyIsBHQy4BdUQFjABegQIARAD&url=http%3A%2F%2Fm.blog.naver.com%2Fhscho%2F110177611833&usg=AOvVaw04OAD5cn1yY99noi5erRci)
