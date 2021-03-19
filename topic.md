@@ -267,3 +267,13 @@ CSS파일 사용 예시
 * 이는 우리의 의식이 외부에서 주어지는 모든 정보를 다 처리하기 어렵기 때문에 일어나는 현상
 * 지각적으로 특별한 몇몇 자극에만 집중하게 됨
 * [링크](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwiN9ZuX37bvAhVdyIsBHQy4BdUQFjABegQIARAD&url=http%3A%2F%2Fm.blog.naver.com%2Fhscho%2F110177611833&usg=AOvVaw04OAD5cn1yY99noi5erRci)
+
+
+### 라우터(router, 라우팅 기능을 갖는 공유기)
+* 패킷의 위치를 추출하여, 그 위치에 대한 최적의 경로를 지정하며, 이 경로를 따라 데이터 패킷을 다음 장치로 전향시키는 장지
+* 서로 다른 네트워크 간에 중계 역할 수행
+
+
+### 패킷(packet)
+* 패킷 방식의 컴퓨터 네트워크가 전달하는 데이터의 형식화된 블록
+* 제어 정보와 사용자 데이터(페이로드)로 이루어짐
