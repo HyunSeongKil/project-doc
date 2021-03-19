@@ -278,8 +278,7 @@ src/main
     * TODO callback vs promise
     * TODO ES6+
     * 공통 js파일 사용
-        * 공통 [pp-0.9-es6.js](https://github.com/HyunSeongKil/performance-platform/blob/master/pp-js/src/js/pp-0.9-es6.js) or [pp-0.9-legacy.js](https://github.com/HyunSeongKil/performance-platform/blob/master/pp-js/dist/js/pp-0.9-legacy.js)
-        * ui관련 공통 [ppui-0.9-es6.js](https://github.com/HyunSeongKil/performance-platform/blob/master/pp-js/src/js/ppui-0.9-es6.js) or [ppui-0.9-legacy.js](https://github.com/HyunSeongKil/performance-platform/blob/master/pp-js/dist/js/pp-0.9-legacy.js)
+        * 공통 [pp-0.9-es6.js](https://github.com/HyunSeongKil/performance-platform/blob/master/pp-js/src/js/pp-2021.03-es6.js) or [pp-0.9-legacy.js](https://github.com/HyunSeongKil/performance-platform/blob/master/pp-js/dist/js/pp-2021.03-legacy.js)
         
 * 변수 선언
     * var 사용 지양
@@ -344,6 +343,17 @@ src/main
         ```
 * 템플릿 엔진
     * thymeleaf 사용
+
+* js 선언
+    * defer 속성 사용
+    * 백그라운드에서 js를 다운로드 함 (dom파싱이 멈추지 않음)
+    * dom 파싱 완료 후 js 실행됨
+    ```
+        <script type="text/javascript" src="..." defer ></script>
+    ```
+    * cf. async 속성
+        * 백그라운드에서 js를 다운로드 함(dom파싱이 멈추지 않음)
+        * 그러나, 다운로드가 완료되면 dom 파싱과 무관하게 스크립트 실행됨(dom 파싱전에 dom에 접근하려는 로직 존재시 스크립트 오류 발생)
 
 #### css
 * 클래스 명명
