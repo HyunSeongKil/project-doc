@@ -172,6 +172,44 @@
 * ![그림](https://www.oxts.com/wp-content/uploads/2017/11/DifferentGNSS.jpg)
 
 
+### GeoJSON
+* 위치정보를 갖는 점을 기반으로 체계적인 지형을 표현하기 위해 설계된 개방형 공개 표준 형식
+* 텍스트 파일로 shapefile에 비해 파일 용량이 큼. 따라서, 매우 큰 데이터를 다루기에는 적합하지 않음
+* 파일 확장자 : .json .geojson
+* 인터넷 미디어 타입 : application/geo+json
+* 좌표는 경위도 좌표체계로 저장되는데, 흔히 구글맵이나 OSM에서는 (위도,경도)의 순서로 저장하는데 반해, GeoJSON은(경도,위도)의 순서로 저장됨
+* 표준 : RFC 7946
+* http://www.geojson.org
+
+
+### shapefile(SHP) 파일
+* 벡터 형태의 지리 정보를 저장할 수 있는 공개 포맷으로 ESRI에서 개발
+* 구성요소
+    * shp : 지리 사상의 기하학 정보를 저장
+    * shx : .shp파일의 인덱스를 저장
+    * dbf : 지리 사상의 속성 정보를 제공하는 dBase 파일    
+    * sbn : 지리 사상 공간의 인덱스를 저장하는 파일
+    * sbx : join 기능 수행 및 shape 필드에 대한 인덱스 생성에 필요한 파일
+* [참고](https://hiseon.me/data-analytics/shp-file-format/)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ## IT
 ### API Gateway
 * MSA에서 언급되는 컴포넌트중 하나이며, 모든 client 요청에 대한 end point를 통합하는 서버
